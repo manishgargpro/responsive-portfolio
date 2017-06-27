@@ -93,7 +93,8 @@ a:hover{
 
 /*I had to add a bunch of rotational attributes to my profile picture because for some reason it's tilted 90 degrees left on chrome. Haven't tried other web browsers yet.*/
 .profile_picture{
-	transform: rotate(90deg);
+  -webkit-transform:rotate(270deg);
+  transform: rotate(90deg);
   float: left;
   margin-right: 8.33%;
   width: 40%;
