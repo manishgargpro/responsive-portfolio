@@ -91,9 +91,9 @@ a:hover{
 	clear: both;
 }
 
-/*I had to add a bunch of rotational attributes to my profile picture because for some reason it's tilted 90 degrees left on chrome. Haven't tried other web browsers yet.*/
+/*This works in chrome, does not work in safari, it's infuriating*/
 .profile_picture{
-  -webkit-transform:rotate(0deg);
+  -webkit-transform:rotate(270deg);
   transform: rotate(90deg);
   float: left;
   margin-right: 8.33%;
