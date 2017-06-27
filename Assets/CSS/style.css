@@ -231,8 +231,3 @@ a:hover{
 		width: 83.33%
 	}
 }
-
-::i-block-chrome,.profile_picture{
-	-webkit-transform:rotate(0deg);
-	transform: rotate(0deg);
-}
